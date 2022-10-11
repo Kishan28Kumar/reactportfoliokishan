@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 
 import Footer from '../components/Footer';
 import HeroImg2 from '../components/HeroImg2';
+import AboutContent from '../components/AboutContent';
 
 const About = () => {
   return (
@@ -12,6 +13,7 @@ const About = () => {
       <HeroImg2 heading ="ABOUT"
         text="I'm a friendly Front-End Developer."
       />
+      <AboutContent/>
       <Footer />
     </div>
   )
