@@ -17,7 +17,8 @@ const Work = () => {
                         imgsrc={val.imgsrc}
                         title={val.title}
                         text={val.text}
-                        view={val.view}
+                        proj_url={val.proj_url}
+                        source_url={val.source_url}
                     />
                 )
             })}

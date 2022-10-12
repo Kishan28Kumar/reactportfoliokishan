@@ -1,22 +1,36 @@
 import "./WorkCardStyles.css";
 import React from "react";
 
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 const WorkCard = (props) => {
   return (
     <div className="project-card">
-      <img src={props.imgsrc} alt="" />
+      <a href={props.proj_url} target="_blank" rel="noreferrer">
+        <img src={props.imgsrc} alt="projectImage" />
+      </a>
+
       <h2 className="project-title">{props.title}</h2>
       <div className="pro-detail">
         <p>{props.text}</p>
         <div className="pro-btns">
-          <NavLink to={props.view} target="_blank" className="btn">
+          <a
+            href={props.proj_url}
+            target="_blank"
+            rel="noreferrer"
+            className="btn"
+          >
             View
-          </NavLink>
-          <NavLink to="url.com" className="btn">
+          </a>
+
+          <a
+            href={props.source_url}
+            target="_blank"
+            rel="noreferrer"
+            className="btn"
+          >
             Source
-          </NavLink>
+          </a>
         </div>
       </div>
     </div>

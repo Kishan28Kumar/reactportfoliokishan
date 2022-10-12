@@ -11,7 +11,7 @@ const About = () => {
     <div>
       <Navbar />
       <HeroImg2 heading ="ABOUT"
-        text="I'm a friendly Front-End Developer."
+        text="Final Year student persuing Computer Science and Engineering"
       />
       <AboutContent/>
       <Footer />

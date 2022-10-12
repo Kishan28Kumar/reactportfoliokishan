@@ -29,10 +29,12 @@ ul{
     border: 1px solid #fff;
     font-weight: 600;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .btn-light{
     background: rgba(255, 255, 255, 0.2);
+    color: aliceblue;
 }
 
 .btn:hover{
@@ -40,3 +42,4 @@ ul{
     color: #fff;
     transition: 0.3s;
 }
+

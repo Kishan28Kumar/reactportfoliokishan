@@ -30,6 +30,8 @@
     line-height: 30px;
 }
 
+
+
 .right{
     height: 100%;
     max-width: 100%;
@@ -42,10 +44,10 @@
     margin-top: 1rem;
 }
 
-h4{
+/* h4{
     font-size: 1.2rem;
     padding-bottom: .7rem;
-}
+} */
 p{
     font-size: 1.2rem;
 }
@@ -54,4 +56,18 @@ p{
     .footer-container{
         grid-template-columns: 1fr;
     }
+    .EmailSmall{
+        word-wrap: break-word !important; 
+     }
+
 }
+
+@media screen and (max-width:640px) {
+  .EmailSmall {
+    font-size: 15px;
+    padding-bottom: .7rem;
+
+  }
+
+}
+

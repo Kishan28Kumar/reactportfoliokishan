@@ -52,6 +52,10 @@
   .nav-menu.active{
     left: 0; 
   }
+  .activeNavbar {
+    color: red !important;
+    border: 2px solid green !important;
+  }
 
   .nav-menu li{
     padding: 1rem 0;
@@ -65,3 +69,4 @@
     display: initial;
 }
 }
+
